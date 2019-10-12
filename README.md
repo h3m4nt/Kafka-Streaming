@@ -16,7 +16,8 @@ The Objective of this project was to read a log file from a location and write t
 ### Apache Log File Format
 ```155.157.157.83 - - [25/May/2015:23:11:39 +0000] "GET / HTTP/1.0" 200 3557 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.51"```
 
-**LogFormat "%h %l %u %t "%r" %>s %b "%{Referer}i" "%{User-Agent}i""**
+**LogFormat "%h %l %u %t "%r" %>s %b "%{Referer}i" "%{User-Agent}i"**
+
 |Symbol|Description|
 |------:|-----------:|
 |%h|IP Address of client (remote host)|
